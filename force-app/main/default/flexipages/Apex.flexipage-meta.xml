@@ -6,7 +6,7 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>apexWireMethodToProperty</componentName>
+            <componentName>apexWireMethodWithParams</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>apexWireMethodToFunction</componentName>
@@ -26,7 +26,7 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>apexWireMethodWithParams</componentName>
+            <componentName>apexWireMethodToProperty</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>apexImperativeMethodWithParams</componentName>

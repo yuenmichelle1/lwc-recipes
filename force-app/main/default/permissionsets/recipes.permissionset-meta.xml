@@ -135,6 +135,10 @@
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>
+        <tab>Aura_Interop</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Aura_Interoperability</tab>
         <visibility>Visible</visibility>
     </tabSettings>

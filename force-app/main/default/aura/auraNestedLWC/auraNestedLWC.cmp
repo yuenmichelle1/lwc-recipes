@@ -15,11 +15,11 @@
 
         <div class="slds-m-around_medium">
             <lightning:layout>
-                <lightning:layoutItem size="4">
+                <lightning:layoutItem size="6">
                     <!-- This is an LWC component -->
                     <c:contactList oncontactselect="{!c.handleContactSelect}"/>
                 </lightning:layoutItem>
-                <lightning:layoutItem size="8" class="slds-p-left_medium">
+                <lightning:layoutItem size="6" class="slds-p-left_medium">
                     <aura:if isTrue="{!v.selectedContact}">
                         <img src="{!v.selectedContact.Picture__c}" alt="Profile photo"/>
                         <p>{!v.selectedContact.Name}</p>
