@@ -16,6 +16,6 @@ export default class RecordFormStaticContact extends LightningElement {
         NAME_FIELD,
         TITLE_FIELD,
         PHONE_FIELD,
-        EMAIL_FIELD,
+        EMAIL_FIELD
     ];
 }
