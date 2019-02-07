@@ -1,0 +1,23 @@
+<template>
+
+    <lightning-card title="LdsCreateRecordWithDefaults" icon-name="standard:record">
+        <div class="slds-m-around_medium">
+            <template for:each={defaults} for:item="field">
+                <lightning-input key={field.apiName} disabled label={field.label} value={field.value}></lightning-input>
+            </template>
+            <lightning-input label="Name" onchange={handleNameChange} class="slds-m-bottom_x-small"></lightning-input>
+            <lightning-button label="Create Contact" variant="brand" onclick={createContact}></lightning-button>
+            <lightning-input label="Created Id" disabled value={contactId}></lightning-input>
+        </div>
+
+        <template if:true={error}>
+            <c-error-panel errors={error}></c-error-panel>
+        </template>
+
+        <c-view-source source="lwc/ldsCreateRecord" slot="footer">
+            Create a record without writing server-side code. Always consider lightning-record-form and lightning-record-edit-form first.
+        </c-view-source>
+
+    </lightning-card>
+
+</template>
