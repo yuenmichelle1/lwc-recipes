@@ -135,6 +135,13 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
+            <componentName>wireGenerateRecordInput</componentName>
+        </componentInstances>
+        <name>Facet-141cd3e6-b92b-4392-8455-afcf3c1c41e6</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
             <componentInstanceProperties>
                 <name>active</name>
                 <value>true</value>
@@ -157,6 +164,17 @@
             <componentInstanceProperties>
                 <name>title</name>
                 <value>Static Schema</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:tab</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>body</name>
+                <value>Facet-141cd3e6-b92b-4392-8455-afcf3c1c41e6</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>title</name>
+                <value>Other</value>
             </componentInstanceProperties>
             <componentName>flexipage:tab</componentName>
         </componentInstances>
