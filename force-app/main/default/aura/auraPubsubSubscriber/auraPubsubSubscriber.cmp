@@ -22,6 +22,7 @@
         targetFields="{!v.contact}"/>
 
     <lightning:card title="AuraPubsubSubscriber" iconName="custom:custom30">
+        <div class="tokenTest">Testing tokens</div>
 
         <aura:set attribute="actions">
             <span class="aura">Aura Component</span>

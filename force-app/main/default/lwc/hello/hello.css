@@ -1,0 +1,8 @@
+.sldstoken {
+    background: red;
+    font-size: var(--lwc-fontSizeLarge);
+}
+
+.customtoken {
+    background-color: var(--lwc-colorBlue);
+}

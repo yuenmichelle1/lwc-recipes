@@ -1,0 +1,5 @@
+<aura:tokens>
+    <aura:token name="fontFamily" value="Comic Sans"/>
+    <aura:token name="colorBlue" value="blue"/>
+    <aura:token name="colorRed" value="blue"/>
+</aura:tokens>

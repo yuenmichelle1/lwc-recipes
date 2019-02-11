@@ -16,3 +16,8 @@
     padding: 1px 4px;
     border-radius: 3px;
 }
+
+.THIS .tokenTest {
+    font-family: t(fontFamily);
+    background-color: t(colorBlue);
+}
